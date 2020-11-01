@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title> Alley Alert </title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+
+</head>
+<body>
+	<header>
+		<h1> Alley Alert </h1>
+		<p> This website is designed to help women to find a safe place to be to avoid being harrassed. This helps provide a sense of security, because a major issue women face is the fear of being abused in times when they are alone. Through AI, this website will be able to learn which routes are safest via a rating system in further developments.</p>
+		<div class="main"> 
+			<ul>
+				<li><a href="#">Home</a></li>
+			</ul>
+		</div>
+		<div class="moreinfo">
+		<p1> 
+			<em> Enter coordinates and check to see if that area is safe</em> 
+		</p1>
+<!--Code from https://www.embedgooglemap.net/, authorized for reuse-->
+		<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=usc%20institute%20of%20creative%20technologies&t=k&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+
+
+		<img style="float:right; margin:-450px 300px 200px 0px; padding-right:10px;" src="https://media.wired.com/photos/59269cd37034dc5f91bec0f1/master/pass/GoogleMapTA.jpg" class="up" border="0"align="" height="450" width="450" usemap="#workmap" />
+		<form>
+			<fieldset>
+				X Coordinate For Dangerous Location:<br>
+				<input type="text" name="xcoordinate"><br>
+				Y Coordinate For Dangerous Location:<br>
+				<input type="text" name="ycoordinate"><br>
+				<input type="submit" value="submit">		
+			</fieldset>
+		</form>
+		<map name="workmap"> 
+			<area shape="circle" coords= "xcoordinate, ycoordinate, 100" href="https://assets.fishersci.com/TFS-Assets/CCG/product-images/10041344_GRP_B.JPG-650.jpg">
+		</map>
+		<script language=javascript>
+			document.getElementById("xcoordinate").value = 0;
+		</script>
+
+		<script language=javascript>
+			document.getElementById("ycoordinate").value = 0;
+		</script>
+</body>
+</html>

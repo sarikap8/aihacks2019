@@ -1,0 +1,63 @@
+
+h1 {
+	font-family: "Century Gothic";
+	text-align: center;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+}
+
+p {
+	font-family: "Century Gothic";
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.moreinfo {
+	color: #fff;
+	font-family: "Century Gothic";
+}
+header {
+	background-image: url(1.jpg);
+	height: 100vh;
+	background-size: 100%;
+	background-position: center;
+}
+ul {
+	float: right;
+	list-style-type: none;
+	margin-top: 1px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+}
+ul li a:hover{
+	background-color: #fff
+	color: #00;
+}
+body, html {
+  height: 100%;
+}
+
+.bg { 
+  background-image: url("1.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+form {
+	font-family: "Century Gothic";
+	color: #fff;
+	text-align: center;
+}
